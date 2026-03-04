@@ -103,6 +103,9 @@ body.dark-mode #theme-btn::after {
     height: 100%;
     object-fit: cover;
 }
+#top-a{
+    scroll-margin-top: 6rem;
+}
 
 header .titolo-h{
     position: absolute;
@@ -155,6 +158,26 @@ header .titolo-h{
 body.dark-mode img {
     filter: brightness(0.7) contrast(1.1);
     transition: filter 0.2s ease;
+}
+
+.circle{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+
+    width: 80px;
+    height: 80px;
+
+    background-color: var(--bg-theme-btn);
+    border-radius: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#top-btn{
+    width: 1.8em;
 }
 
 /* footer */
